@@ -72,10 +72,13 @@ Here is the table of the available bindings versions, the deprecated ones could 
 | 43484       | 6.4.2~6.4.3        | 6.4.4348400                  |
 | 51831       | 7.0.0~7.0.1        | 7.0.5183101                  |
 | 25424 (!)   | 7.1.0              | Not released (\*)            |
+| 52801       | 7.1.1 (Ubuntu 26.04 archive) | fork only (\*\*)       |
 | 52802       | 7.1.1              | 7.1.5280200                  |
 | 26015 (!)   | 7.2.0              | Not released (\*)            |
 | 53211       | 7.2.1~7.2.4        | 7.2.5321100                  |
 | 60850       | 7.14               | 7.14.6085001                 |
+
+(\*\*) Ubuntu 26.04 builds HIP 7.1.1 itself (`hipcc` 7.1.1+dfsg), and its `hipconfig` reports 52801.
 
 (*) These HIP patch version seems wrong, see reported issue: https://github.com/ROCm/hip/issues/3881
 

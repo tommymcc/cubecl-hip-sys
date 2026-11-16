@@ -60,6 +60,13 @@ mod bindings_51831 {
 #[cfg(feature = "hip_51831")]
 pub use bindings_51831::*;
 
+#[cfg(feature = "hip_52801")]
+mod bindings_52801 {
+    include!(concat!(env!("OUT_DIR"), "/bindings_52801.rs"));
+}
+#[cfg(feature = "hip_52801")]
+pub use bindings_52801::*;
+
 #[cfg(feature = "hip_52802")]
 mod bindings_52802 {
     include!(concat!(env!("OUT_DIR"), "/bindings_52802.rs"));
